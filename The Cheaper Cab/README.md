@@ -21,20 +21,21 @@ You may print each character of FIRST, SECOND and ANY in uppercase or lowercase 
 ```
 
 # Sample 1:
+
 ## Input
 
 3
 30 65
 42 42
 90 50
-# Output
+## Output
 FIRST
 ANY
 SECOND
 Explanation:
 
--Test case 11: The first cab service is cheaper than the second cab service.
+- Test case 11: The first cab service is cheaper than the second cab service.
 
--Test case 22: Both the cab services have the same price.
+- Test case 22: Both the cab services have the same price.
 
--Test case 33: The second cab service is cheaper than the first cab service.
+- Test case 33: The second cab service is cheaper than the first cab service.
