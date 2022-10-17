@@ -1,20 +1,36 @@
-Problem
-Chef is watching TV. The current volume of the TV is XX. Pressing the volume up button of the TV remote increases the volume by 11 while pressing the volume down button decreases the volume by 11. Chef wants to change the volume from XX to YY. Find the minimum number of button presses required to do so.
+#Problem
+Chef has to travel to another place. For this, he can avail any one of two cab services.
 
-Input Format
-The first line contains a single integer TT - the number of test cases. Then the test cases follow.
-The first and only line of each test case contains two integers XX and YY - the initial volume and final volume of the TV.
+The first cab service charges XX rupees.
+The second cab service charges YY rupees.
+Chef wants to spend the minimum amount of money. Which cab service should Chef take?
+
+#Input Format
+The first line will contain TT - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains two integers XX and YY - the prices of first and second cab services respectively.
 Output Format
-For each test case, output the minimum number of times Chef has to press a button to change the volume from XX to YY.
+For each test case, output FIRST if the first cab service is cheaper, output SECOND if the second cab service is cheaper, output ANY if both cab services have the same price.
 
-Constraints
+You may print each character of FIRST, SECOND and ANY in uppercase or lowercase (for example, any, aNy, Any will be considered identical).
+
+#Constraints
 1 \leq T \leq 1001≤T≤100
 1 \leq X, Y \leq 1001≤X,Y≤100
-Sample 1:
-Input
-2
-50 54
-12 10
-Output
-4
-2
+#Sample 1:
+#Input
+
+3
+30 65
+42 42
+90 50
+#Output
+FIRST
+ANY
+SECOND
+Explanation:
+
+-Test case 11: The first cab service is cheaper than the second cab service.
+
+-Test case 22: Both the cab services have the same price.
+
+-Test case 33: The second cab service is cheaper than the first cab service.
