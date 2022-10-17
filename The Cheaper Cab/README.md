@@ -19,7 +19,6 @@ You may print each character of FIRST, SECOND and ANY in uppercase or lowercase 
 1  X, Y  1001≤X,Y≤100
 
 ```
-
 # Sample 1:
 
 ## Input
