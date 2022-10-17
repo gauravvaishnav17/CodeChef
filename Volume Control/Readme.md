@@ -10,8 +10,8 @@ For each test case, output the minimum number of times Chef has to press a butto
 
 # Constraints
 ```
-1 \leq T \leq 1001≤T≤100
-1 \leq X, Y \leq 1001≤X,Y≤100
+1  T  1001≤T≤100
+1 X, Y  1001≤X,Y≤100
 ```
 # Sample 1:
 ## Input
@@ -21,7 +21,6 @@ For each test case, output the minimum number of times Chef has to press a butto
 ## Output
 4
 2
-
 # Explanation:
 - Test Case 1: Chef can press the volume up button 44 times to increase the volume from 5050 to 5454.
 
