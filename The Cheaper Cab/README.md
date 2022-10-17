@@ -14,8 +14,12 @@ For each test case, output FIRST if the first cab service is cheaper, output SEC
 You may print each character of FIRST, SECOND and ANY in uppercase or lowercase (for example, any, aNy, Any will be considered identical).
 
 # Constraints
-```1 T  1001≤T≤100
-1  X, Y  1001≤X,Y≤100```
+```
+1 T  1001≤T≤100
+1  X, Y  1001≤X,Y≤100
+
+```
+
 # Sample 1:
 ## Input
 
